@@ -57,6 +57,12 @@ a:hover {
 /*===========================
   Menu and Navigation
 ============================ */
+#header {
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 10000;
+}
 .navbar-brand {
   float: left;
   height: 50px;
@@ -130,7 +136,7 @@ a:hover {
 ============================ */
 .slider {
 	position: relative;	
-	margin-top:-20px;
+	margin-top: 50px;
 }
 
 #carousel-slider {
@@ -1084,6 +1090,9 @@ ul.social-network li a {
 @media only screen and (min-width:320px) and (max-device-width: 480px){
 	.navbar-brand a img {
 		height: 30px;
+	}
+	.menu {
+		width: 100%;
 	}
 	.menu ul.nav-tabs li {
 		width: 100%;	
