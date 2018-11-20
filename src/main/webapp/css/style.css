@@ -22,8 +22,8 @@ hi,h2,h3,h4,h5,h6 {
 }
 
 p {
-	color:#aaa;
-	font-size:13px;
+	color:#000;
+	font-size:14px;
 }
 a {
     text-decoration:none;
@@ -276,7 +276,6 @@ a:hover {
 .about .text-center p {
 	margin-top:20px;
 	margin-bottom:80px;
-	color:#aaa;
 } 
 
 .btn-gamp a {
